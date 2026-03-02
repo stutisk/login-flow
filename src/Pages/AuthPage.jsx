@@ -54,7 +54,7 @@ export const AuthPage = () => {
         <OtpEntryScreen
           onBack={() => setStep(2)}
           onContinue={(enteredOtp) => {
-            setOtp(enteredOtp);
+            // setOtp(enteredOtp);
             setStep(4);
           }}
           mobileDisplay={mobileDisplay}
