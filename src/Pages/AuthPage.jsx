@@ -16,7 +16,7 @@ export const AuthPage = () => {
   const [selectedRole, setSelectedRole] = useState("personal");
   const [countryCode, setCountryCode] = useState(DEFAULT_COUNTRY_CODE);
   const [mobileNumber, setMobileNumber] = useState("");
-  const [otp, setOtp] = useState("");
+  // const [otp, setOtp] = useState("");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [password, setPassword] = useState("");
